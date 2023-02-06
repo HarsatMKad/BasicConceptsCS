@@ -15,9 +15,10 @@ namespace ConsoleApp1 {
       Order = Convert.ToInt32(Console.ReadLine());
 
       Result = Foundation;
-      for(int Index = 1; Index < Order; ++Index) {
+      for(int Degree = 1; Degree < Order; ++Degree) {
         Result *= Foundation;
       }
+
       Console.WriteLine("= " + Result);
       Console.ReadKey();
     }
