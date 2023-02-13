@@ -27,7 +27,7 @@ namespace ConsoleApp1
         if(NumberIndex != 1) 
         { 
           Console.WriteLine(Number[NumberIndex]);
-	}
+        }
       }
       Console.WriteLine(Number[1]);
       
